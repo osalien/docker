@@ -1,7 +1,6 @@
 # 设置基础镜像 
 
-FROM nginx:1.15
-
+FROM nginx:1.10.3
 # 定义作者
 
 MAINTAINER yuanzhao <yuanzhao.vip@qq.com>
