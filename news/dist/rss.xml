@@ -1,34 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[每日分享]]></title><description><![CDATA[每日分享，会以IT技术体系为主要分享课题。内容会以：文章、工具、新闻、视频几大板块作为主要分类。]]></description><link>https://iamyuanzhao.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Jun 2019 03:17:18 GMT</lastBuildDate><atom:link href="https://iamyuanzhao.github.io/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2019每日分享]]></copyright><language><![CDATA[zh-CN]]></language><item><title><![CDATA[2019.06.03]]></title><description><![CDATA[<h3>2019.06.03</h3>
-<p>[新闻] TypeScript 3.5 发布，构建时间减少 68%、新增 Omit 类型、UMD 全局访问等等：<a href="https://devblogs.microsoft.com/typescript/announcing-typescript-3-5/">https://devblogs.microsoft.com/typescript/announcing-typescript-3-5/</a></p>
-<p>[工具] 有些算法很难在短时间内很好的理解，所以 algorithm-visualizer 提供了一套可视化学习算法的平台，它提供了一个实时的效果，和 NodeJS、Java 代码的案例，能实时看到当前代码执行的是哪段；我学习归并排序时，对我帮助挺大；说多少，不如看一下效果图，<a href="https://algorithm-visualizer.org/brute-force/selection-sort">演示效果</a>：<a href="https://github.com/algorithm-visualizer/algorithm-visualizer">https://github.com/algorithm-visualizer/algorithm-visualizer</a></p>
-<p>[技巧] VSCode 新增了 Shrink/expand selection 操作，和 Vim 的 <code>di(</code> 效果一样：<a href="https://code.visualstudio.com/docs/editor/codebasics#_shrinkexpand-selection">https://code.visualstudio.com/docs/editor/codebasics#_shrinkexpand-selection</a></p>
-<p>[类库] 小红书用的 HTML5 视频播放器：<a href="http://dplayer.js.org/#/">http://dplayer.js.org/#/</a></p>
-<h3>配图 - algorithm-visualizer</h3>
-<p><img src="https://raw.githubusercontent.com/algorithm-visualizer/algorithm-visualizer/master/branding/screenshot.png" alt=""></p>
-<h3>配图 - Shrink/expand selection</h3>
-<p><img src="https://code.visualstudio.com/assets/docs/editor/codebasics/expandselection.gif" alt=""></p>
-<h3>配图 - 小红书用的 HTML5 视频播放器</h3>
-<p><img src="https://camo.githubusercontent.com/0ade48acd75de2208c39e3c499f84c2fbfce47ba/687474703a2f2f692e696d6775722e636f6d2f323037636833362e6a7067" alt=""></p>
-<h3>示例 - TypeScript 3.5</h3>
-<pre><code class="language-ts">type Person = {
-    name: string;
-    age: number;
-    location: string;
-};
-
-type RemainingKeys = Exclude&lt;keyof Person, &quot;location&quot;&gt;;
-
-type QuantumPerson = Pick&lt;Person, RemainingKeys&gt;;
-
-// equivalent to
-type QuantumPerson = {
-    name: string;
-    age: number;
-};
-</code></pre>
-<h3>今日图 - 分支合并</h3>
-<p><img src="https://user-gold-cdn.xitu.io/2019/6/3/16b1b66464aa9593?imageView2/2/w/800/q/100" alt=""></p>
-]]></description><link>https://iamyuanzhao.github.io/2019/06/03.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2019/06/03.html</guid><pubDate>Tue, 04 Jun 2019 02:11:08 GMT</pubDate></item><item><title><![CDATA[2019.05.30]]></title><description><![CDATA[<h3>2019.05.30</h3>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[每日分享]]></title><description><![CDATA[每日分享，会以IT技术体系为主要分享课题。内容会以：文章、工具、新闻、视频几大板块作为主要分类。]]></description><link>https://iamyuanzhao.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Jun 2019 03:20:33 GMT</lastBuildDate><atom:link href="https://iamyuanzhao.github.io/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2019每日分享]]></copyright><language><![CDATA[zh-CN]]></language><item><title><![CDATA[2019.05.30]]></title><description><![CDATA[<h3>2019.05.30</h3>
 <p>[视频] 利用 SocketIO 实时发送数据：<a href="https://www.youtube.com/watch?v=9HFwJ9hrmls">https://www.youtube.com/watch?v=9HFwJ9hrmls</a></p>
 <p>[类库] slash 一致化处理路径中的分隔符：<a href="https://github.com/sindresorhus/slash">https://github.com/sindresorhus/slash</a></p>
 <p>[类库] TJ 写的命令行选项和参数解析器，支持子命令、选项校验、类型转换，帮助信息生成等等；API 非常的简单优雅：<a href="https://github.com/tj/commander.js">https://github.com/tj/commander.js</a></p>
@@ -115,26 +85,76 @@ console.log(require('os').tmpdir());
 </code></pre>
 <h3>今日图 - 新手 VS 工作 3 年老司机的工作态度</h3>
 <p><img src="https://user-gold-cdn.xitu.io/2019/5/30/16b06e06a0c681af?imageView2/2/w/800/q/100" alt=""></p>
-]]></description><link>https://iamyuanzhao.github.io/2019/05/31.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2019/05/31.html</guid><pubDate>Tue, 04 Jun 2019 02:11:08 GMT</pubDate></item><item><title><![CDATA[2018.08.28]]></title><description><![CDATA[<h3>2018.08.28</h3>
-<p>[工具] 别写样式，用 Tailwind 配样式：<a href="https://frontendnews.io/editions/2018-08-08-tailwind-css-tutorial">https://frontendnews.io/editions/2018-08-08-tailwind-css-tutorial</a></p>
-<p>[新闻] Chrome 69 beta 特性预览，可以关注下，比如支持了 conic-gradient：<a href="https://blog.chromium.org/2018/08/chrome-69-beta-av1-video-decoder-css.html">https://blog.chromium.org/2018/08/chrome-69-beta-av1-video-decoder-css.html</a></p>
-<p>[工具] 一个 TODO 管理命令行工具，颜值还不错：<a href="https://github.com/klauscfhq/taskbook">https://github.com/klauscfhq/taskbook</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/08/28.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/08/28.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.08.29]]></title><description><![CDATA[<h3>2018.08.29</h3>
-<p>[新闻] babel@7 正式发布：<a href="https://babeljs.io/blog/2018/08/27/7.0.0">https://babeljs.io/blog/2018/08/27/7.0.0</a></p>
-<p>[类库] fastpack，功能少，但速度快，1000 个模块仅需 1s：<a href="https://github.com/fastpack/fastpack">https://github.com/fastpack/fastpack</a></p>
-<p>[文章] Vue-CLI-3 的 ppt：<a href="https://slides.com/akryum/vue-cli">https://slides.com/akryum/vue-cli</a></p>
-<p>[文章] Elm 发布 0.19：<a href="https://github.com/elm/compiler/blob/master/upgrade-docs/0.19.md">https://github.com/elm/compiler/blob/master/upgrade-docs/0.19.md</a></p>
-<p>[工具] Coder IDE，云 IDE，类 vscode，不开源：<a href="https://dev.to/sethusenthil/coder-ide---the-next-gen-ide-on-the--1b99">https://dev.to/sethusenthil/coder-ide---the-next-gen-ide-on-the--1b99</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/08/29.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/08/29.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.08.31]]></title><description><![CDATA[<h3>2018.08.31</h3>
+]]></description><link>https://iamyuanzhao.github.io/2019/05/31.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2019/05/31.html</guid><pubDate>Tue, 04 Jun 2019 02:11:08 GMT</pubDate></item><item><title><![CDATA[2019.06.03]]></title><description><![CDATA[<h3>2019.06.03</h3>
+<p>[新闻] TypeScript 3.5 发布，构建时间减少 68%、新增 Omit 类型、UMD 全局访问等等：<a href="https://devblogs.microsoft.com/typescript/announcing-typescript-3-5/">https://devblogs.microsoft.com/typescript/announcing-typescript-3-5/</a></p>
+<p>[工具] 有些算法很难在短时间内很好的理解，所以 algorithm-visualizer 提供了一套可视化学习算法的平台，它提供了一个实时的效果，和 NodeJS、Java 代码的案例，能实时看到当前代码执行的是哪段；我学习归并排序时，对我帮助挺大；说多少，不如看一下效果图，<a href="https://algorithm-visualizer.org/brute-force/selection-sort">演示效果</a>：<a href="https://github.com/algorithm-visualizer/algorithm-visualizer">https://github.com/algorithm-visualizer/algorithm-visualizer</a></p>
+<p>[技巧] VSCode 新增了 Shrink/expand selection 操作，和 Vim 的 <code>di(</code> 效果一样：<a href="https://code.visualstudio.com/docs/editor/codebasics#_shrinkexpand-selection">https://code.visualstudio.com/docs/editor/codebasics#_shrinkexpand-selection</a></p>
+<p>[类库] 小红书用的 HTML5 视频播放器：<a href="http://dplayer.js.org/#/">http://dplayer.js.org/#/</a></p>
+<h3>配图 - algorithm-visualizer</h3>
+<p><img src="https://raw.githubusercontent.com/algorithm-visualizer/algorithm-visualizer/master/branding/screenshot.png" alt=""></p>
+<h3>配图 - Shrink/expand selection</h3>
+<p><img src="https://code.visualstudio.com/assets/docs/editor/codebasics/expandselection.gif" alt=""></p>
+<h3>配图 - 小红书用的 HTML5 视频播放器</h3>
+<p><img src="https://camo.githubusercontent.com/0ade48acd75de2208c39e3c499f84c2fbfce47ba/687474703a2f2f692e696d6775722e636f6d2f323037636833362e6a7067" alt=""></p>
+<h3>示例 - TypeScript 3.5</h3>
+<pre><code class="language-ts">type Person = {
+    name: string;
+    age: number;
+    location: string;
+};
+
+type RemainingKeys = Exclude&lt;keyof Person, &quot;location&quot;&gt;;
+
+type QuantumPerson = Pick&lt;Person, RemainingKeys&gt;;
+
+// equivalent to
+type QuantumPerson = {
+    name: string;
+    age: number;
+};
+</code></pre>
+<h3>今日图 - 分支合并</h3>
+<p><img src="https://user-gold-cdn.xitu.io/2019/6/3/16b1b66464aa9593?imageView2/2/w/800/q/100" alt=""></p>
+]]></description><link>https://iamyuanzhao.github.io/2019/06/03.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2019/06/03.html</guid><pubDate>Tue, 04 Jun 2019 02:11:08 GMT</pubDate></item><item><title><![CDATA[2019.02.01]]></title><description><![CDATA[<h3>2019.02.01</h3>
+<p>[类库] 命令行的 License 生成工具：<a href="https://github.com/licenses/lice-js">https://github.com/licenses/lice-js</a></p>
+<p>[类库] Jest 提供了一个用于校验样式是否存在的库：<a href="https://github.com/styled-components/jest-styled-components">https://github.com/styled-components/jest-styled-components</a></p>
+<p>[类库] <a href="https://cabinjs.com/#/">Cabin</a> 是一个日志分析服务的中间件，支持浏览器、NodeJS、Koa、Express 等，它近期提供了一个日志解析库，parse-logs：<a href="https://github.com/cabinjs/parse-logs">https://github.com/cabinjs/parse-logs</a></p>
+<p>[文章] 如何停止使用 <code>console.log()</code> 转而使用浏览器 <code>debugger</code>：<a href="https://juejin.im/post/5c4dccd7e51d4505171c8f8a">https://juejin.im/post/5c4dccd7e51d4505171c8f8a</a></p>
+<h3>使用方式 - License 生成工具</h3>
+<pre><code class="language-shell">$ licejs mit
+The MIT License (MIT)
+Copyright (c) 2013 Jeremy Carbaugh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+...
+</code></pre>
+<h3>使用方式 - Jest 样式判断</h3>
+<pre><code class="language-js">import React from 'react'
+import styled from 'styled-components'
+import renderer from 'react-test-renderer'
+import 'jest-styled-components'
+
+const Button = styled.button`
+  color: red;
+`
+
+test('it works', () =&gt; {
+  const tree = renderer.create(&lt;Button /&gt;).toJSON()
+  expect(tree).toMatchSnapshot()
+  expect(tree).toHaveStyleRule('color', 'red')
+})
+</code></pre>
+]]></description><link>https://iamyuanzhao.github.io/2019/02/01.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2019/02/01.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.08.31]]></title><description><![CDATA[<h3>2018.08.31</h3>
 <p>[工具] 一组可提升页面性能的工具：<a href="https://progressivetooling.com/">https://progressivetooling.com/</a></p>
 <p>[文章] TeaHour-小程序火了：<a href="https://m.lizhi.fm/vod/22086/2689373343607193094">https://m.lizhi.fm/vod/22086/2689373343607193094</a></p>
 <p>[文章] Using ESLint in a script：<a href="http://www.phpied.com/using-eslint-in-a-script/">http://www.phpied.com/using-eslint-in-a-script/</a></p>
 <p>[类库] Define your API and SPA routes in one place. Use them anywhere. Only 1.6kb：<a href="https://github.com/drewjbartlett/routegen">https://github.com/drewjbartlett/routegen</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/08/31.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/08/31.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.08.30]]></title><description><![CDATA[<h3>2018.08.30</h3>
-<p>[工具] 终于找到这货了，支持演示 PPT 时滚动、缩放和高亮代码里的指定行列，配合 mdx-deck 使用：<a href="https://github.com/pomber/code-surfer">https://github.com/pomber/code-surfer</a></p>
-<p>[工具] 通过 overscroll-behavior 可管理滚动条缓存：<a href="https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/">https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/</a></p>
-<p>[文章] Vue Toolbox，类似 www.ruby-toolbox.com：<a href="http://www.vuetoolbox.com">http://www.vuetoolbox.com</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/08/30.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/08/30.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.01]]></title><description><![CDATA[<h3>2018.09.01</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/08/31.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/08/31.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.08.26]]></title><description><![CDATA[<h3>2018.08.26</h3>
+<p>[类库] 给开发 IDE 用的框架：<a href="https://github.com/theia-ide/theia">https://github.com/theia-ide/theia</a></p>
+<p>[工具] 在线调试工具 Sandbox Editor 在浏览器中可以使用 VSCode 快捷键：<a href="https://codesandbox.io/s/vue">https://codesandbox.io/s/vue</a></p>
+<p>[新闻] 便于理解服务端渲染的一篇文章（React Next.js）：<a href="https://segmentfault.com/p/1210000010368182/read">https://segmentfault.com/p/1210000010368182/read</a></p>
+<p>[工具] 像 CMS 一样，生成企业级界面：<a href="https://www.gatsbyjs.org/docs/gatsby-starters/">https://www.gatsbyjs.org/docs/gatsby-starters/</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/08/26.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/08/26.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.01]]></title><description><![CDATA[<h3>2018.09.01</h3>
 <p>[类库] 下一个版本的 CodeMirror：<a href="https://github.com/codemirror/codemirror.next">https://github.com/codemirror/codemirror.next</a></p>
 <p>[新闻] 在 Instagram 上下载照片的书签：<a href="http://theus.github.io/instantgram">http://theus.github.io/instantgram</a></p>
 <p>[类库] GitHub 敏感信息监控：<a href="https://github.com/FeeiCN/GSIL">https://github.com/FeeiCN/GSIL</a></p>
@@ -193,24 +213,24 @@ console.log(require('os').tmpdir());
 <p>[文章] 无界面模式 xvfb：<a href="https://blog.csdn.net/dyh19911008/article/details/78728106">https://blog.csdn.net/dyh19911008/article/details/78728106</a></p>
 <p>[工具] tink 一个新的 npm 依赖管理器：<a href="https://github.com/npm/tink">https://github.com/npm/tink</a></p>
 <p>[文章] 每周更新一次论文的代码，根据 Starts 排序：<a href="https://github.com/zziz/pwc">https://github.com/zziz/pwc</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/15.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/15.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.19]]></title><description><![CDATA[<h3>2018.09.19</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/15.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/15.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.18]]></title><description><![CDATA[<h3>2018.09.18</h3>
+<p>[工具] HTML 转 Markdown：<a href="https://github.com/domchristie/turndown">https://github.com/domchristie/turndown</a></p>
+<p>[文章] 如何看待 CSS 中 BEM 的命名方式：<a href="https://www.zhihu.com/question/21935157">https://www.zhihu.com/question/21935157</a></p>
+<p>[工具] 一个查看网络情况的小工具：<a href="https://github.com/woodruffw/twa">https://github.com/woodruffw/twa</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/18.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/18.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.19]]></title><description><![CDATA[<h3>2018.09.19</h3>
 <p>[工具] FramerX 出了，令人惊艳的前端可视化工具：<a href="https://framer.com/">https://framer.com/</a></p>
 <p>[工具] Electron 发布 3.0：<a href="https://electronjs.org/blog/electron-3-0">https://electronjs.org/blog/electron-3-0</a></p>
 <p>[新闻] create-react-app v2 将至：<a href="https://github.com/facebook/create-react-app/issues/5024">https://github.com/facebook/create-react-app/issues/5024</a></p>
 <p>[类库] grapesjs，可视化工具，Next generation tool for building templates without coding：<a href="https://github.com/artf/grapesjs">https://github.com/artf/grapesjs</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/19.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/19.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.18]]></title><description><![CDATA[<h3>2018.09.18</h3>
-<p>[工具] HTML 转 Markdown：<a href="https://github.com/domchristie/turndown">https://github.com/domchristie/turndown</a></p>
-<p>[文章] 如何看待 CSS 中 BEM 的命名方式：<a href="https://www.zhihu.com/question/21935157">https://www.zhihu.com/question/21935157</a></p>
-<p>[工具] 一个查看网络情况的小工具：<a href="https://github.com/woodruffw/twa">https://github.com/woodruffw/twa</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/18.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/18.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.21]]></title><description><![CDATA[<h3>2018.09.21</h3>
-<p>[类库] PostCSS 变量命名规则检测器：<a href="https://github.com/postcss/postcss-bem-linter">https://github.com/postcss/postcss-bem-linter</a></p>
-<p>[工具] Now 的 mobile 版，支持 iwatch，基于：react-native：<a href="https://github.com/rdev/now-mobile">https://github.com/rdev/now-mobile</a></p>
-<p>[文章] 关于 Chrome DevTool 最详细的 PPT：<a href="https://umaar.github.io/performance-debugging-devtools-2018/">https://umaar.github.io/performance-debugging-devtools-2018/</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/21.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/21.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.20]]></title><description><![CDATA[<h3>2018.09.20</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/19.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/19.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.20]]></title><description><![CDATA[<h3>2018.09.20</h3>
 <p>[新闻] Babel 发布 7.1：<a href="https://github.com/babel/babel/releases/tag/v7.1.0">https://github.com/babel/babel/releases/tag/v7.1.0</a></p>
 <p>[新闻] Gatsby 发布 2.0：<a href="https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/">https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/</a></p>
 <p>[类库] worker-plugin，让 webpack 支持 worker 打包：<a href="https://github.com/GoogleChromeLabs/worker-plugin">https://github.com/GoogleChromeLabs/worker-plugin</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/20.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/20.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.22]]></title><description><![CDATA[<h3>2018.09.22</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/20.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/20.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.21]]></title><description><![CDATA[<h3>2018.09.21</h3>
+<p>[类库] PostCSS 变量命名规则检测器：<a href="https://github.com/postcss/postcss-bem-linter">https://github.com/postcss/postcss-bem-linter</a></p>
+<p>[工具] Now 的 mobile 版，支持 iwatch，基于：react-native：<a href="https://github.com/rdev/now-mobile">https://github.com/rdev/now-mobile</a></p>
+<p>[文章] 关于 Chrome DevTool 最详细的 PPT：<a href="https://umaar.github.io/performance-debugging-devtools-2018/">https://umaar.github.io/performance-debugging-devtools-2018/</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/21.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/21.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.22]]></title><description><![CDATA[<h3>2018.09.22</h3>
 <p>[文章] 腾讯云，开发手册（很棒）：<a href="https://cloud.tencent.com/developer/section/1135572">https://cloud.tencent.com/developer/section/1135572</a></p>
 <p>[文章] 提升代码质量的 7 条建议:<a href="https://dev.to/aspittel/extreme-makeover-code-edition-k5k">https://dev.to/aspittel/extreme-makeover-code-edition-k5k</a></p>
 <p>[工具] 一个 TODO 管理命令行工具，颜值不错:<a href="https://github.com/klauscfhq/taskbook">https://github.com/klauscfhq/taskbook</a></p>
@@ -250,16 +270,20 @@ console.log(require('os').tmpdir());
 <p>[思路] 有一个 20 条数据的数组，如何让一个异步请求完数据后，在去做其它异步请求？使用最传统的递归即可 - -！！！：<a href="https://blog.csdn.net/chdyiboke/article/details/81914257">https://blog.csdn.net/chdyiboke/article/details/81914257</a></p>
 <p>[工具] VS Code 必装的 10 个开发工具，（又遇见 Code Runner 了）：<a href="http://blog.parryqiu.com/2018/10/15/vscode_top_ten_plugins/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io">http://blog.parryqiu.com/2018/10/15/vscode_top_ten_plugins/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io</a></p>
 <p>[工具] 三种工具对比 top vs Htop vs Glances，其中 Glances 可以把系统监控放到 Kafka 里：<a href="https://mp.weixin.qq.com/s/_YdwciFT6qu5_kUIyylR2g">https://mp.weixin.qq.com/s/_YdwciFT6qu5_kUIyylR2g</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/16.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/16.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.19]]></title><description><![CDATA[<h3>2018.10.19</h3>
-<p>[文章] 禁止 referrer 和 夸脚本攻击 opener ：<a href="https://www.yuque.com/afx/blog/xifli0">https://www.yuque.com/afx/blog/xifli0</a></p>
-<p>[文章] 美团技术团队《深度剖析开源分布式监控 CAT》：<a href="https://tech.meituan.com/CAT_in_Depth_Java_Application_Monitoring.html">https://tech.meituan.com/CAT_in_Depth_Java_Application_Monitoring.html</a></p>
-<p>[文章] 阿里云两个监控系统：&lt;https://www.aliyun.com/product/jiankong/、业务实时监控，支持前端监控：https://www.aliyun.com/product/arms &gt;</p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/19.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/19.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.18]]></title><description><![CDATA[<h3>2018.10.18</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/16.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/16.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.18]]></title><description><![CDATA[<h3>2018.10.18</h3>
 <p>[新闻] codesandbox 成功把 vscode 搬到浏览器上了：<a href="https://mobile.twitter.com/CompuIves/status/1052594462768148480">https://mobile.twitter.com/CompuIves/status/1052594462768148480</a></p>
 <p>[新闻] react-router 发布 4.4.0-beta.2，打包出了 esm 模块，使用时尺寸会更小：<a href="https://github.com/ReactTraining/react-router/releases/tag/v4.4.0-beta.2">https://github.com/ReactTraining/react-router/releases/tag/v4.4.0-beta.2</a></p>
 <p>[新闻] styled-compoennts 发布 4.0，支持 babel macros，ref 和 as 属性：<a href="https://medium.com/styled-components/styled-components-v4-new-final-finalest-for-real-final-final-psd-fa4d83398a77">https://medium.com/styled-components/styled-components-v4-new-final-finalest-for-real-final-final-psd-fa4d83398a77</a></p>
 <p>[文章] Introducing GitHub Actions：<a href="https://css-tricks.com/introducing-github-actions/">https://css-tricks.com/introducing-github-actions/</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/18.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/18.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.23]]></title><description><![CDATA[<h3>2018.10.23</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/18.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/18.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.19]]></title><description><![CDATA[<h3>2018.10.19</h3>
+<p>[文章] 禁止 referrer 和 夸脚本攻击 opener ：<a href="https://www.yuque.com/afx/blog/xifli0">https://www.yuque.com/afx/blog/xifli0</a></p>
+<p>[文章] 美团技术团队《深度剖析开源分布式监控 CAT》：<a href="https://tech.meituan.com/CAT_in_Depth_Java_Application_Monitoring.html">https://tech.meituan.com/CAT_in_Depth_Java_Application_Monitoring.html</a></p>
+<p>[文章] 阿里云两个监控系统：&lt;https://www.aliyun.com/product/jiankong/、业务实时监控，支持前端监控：https://www.aliyun.com/product/arms &gt;</p>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/19.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/19.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.22]]></title><description><![CDATA[<h3>2018.10.22</h3>
+<p>[类库] 可扩展的日志记录器：<a href="https://github.com/klauscfhq/signale/blob/master/docs/readme.zh_CN.md">https://github.com/klauscfhq/signale/blob/master/docs/readme.zh_CN.md</a></p>
+<p>[类库] 在终端可以高亮输出字符串：<a href="https://github.com/chalk/chalk">https://github.com/chalk/chalk</a></p>
+<p>[类库] 可以输出代码错误行和列：<a href="https://www.npmjs.com/package/babel-code-frame">https://www.npmjs.com/package/babel-code-frame</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/22.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/22.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.23]]></title><description><![CDATA[<h3>2018.10.23</h3>
 <p>[文章] mock 本身就支持生成列表（Faker）数据：<a href="https://github.com/nuysoft/Mock/wiki/Getting-Started">https://github.com/nuysoft/Mock/wiki/Getting-Started</a></p>
 <p>[文章] 每个人都应该知道的 JavaScript 33 个概念：<a href="https://github.com/leonardomso/33-js-concepts">https://github.com/leonardomso/33-js-concepts</a></p>
 <p>[类库] 非常适合现场编程演示，给你的朋友留下深刻的印象，或者只是让自己看起来很忙（假装我是黑客）：<a href="https://github.com/jevakallio/vscode-hacker-typer">https://github.com/jevakallio/vscode-hacker-typer</a></p>
@@ -267,11 +291,11 @@ console.log(require('os').tmpdir());
 <p>[文章] (a==1 &amp;&amp; a==2 &amp;&amp; a==3)能输出 ture 么？：<a href="https://segmentfault.com/a/1190000012921114">https://segmentfault.com/a/1190000012921114</a></p>
 <p>[文章] React 优化-记忆化技术-使用闭包提升你的 React 性能：<a href="https://segmentfault.com/a/1190000015301672">https://segmentfault.com/a/1190000015301672</a></p>
 <p>[类库] 在浏览器使用 fs：<a href="https://github.com/suchipi/fs-remote">https://github.com/suchipi/fs-remote</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/24.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/24.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.22]]></title><description><![CDATA[<h3>2018.10.22</h3>
-<p>[类库] 可扩展的日志记录器：<a href="https://github.com/klauscfhq/signale/blob/master/docs/readme.zh_CN.md">https://github.com/klauscfhq/signale/blob/master/docs/readme.zh_CN.md</a></p>
-<p>[类库] 在终端可以高亮输出字符串：<a href="https://github.com/chalk/chalk">https://github.com/chalk/chalk</a></p>
-<p>[类库] 可以输出代码错误行和列：<a href="https://www.npmjs.com/package/babel-code-frame">https://www.npmjs.com/package/babel-code-frame</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/22.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/22.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.29]]></title><description><![CDATA[<h3>2018.10.29</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/24.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/24.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.25]]></title><description><![CDATA[<h3>2018.10.25</h3>
+<p>[类库] 使用 tensorflow.js 在浏览器中进行人脸检测和人脸识别的 JavaScript API：<a href="https://github.com/justadudewhohacks/face-api.js">https://github.com/justadudewhohacks/face-api.js</a></p>
+<p>[类库] 演示 React 16.6 新特性的 Demo：<a href="https://github.com/sergiodxa/react-lazy-memo">https://github.com/sergiodxa/react-lazy-memo</a></p>
+<p>[类库] react-spring 发布 6.0（动画效果很炫）<a href="https://medium.com/@drcmda/react-spring-6-0-is-out-of-beta-533ad6c8b4a">https://medium.com/@drcmda/react-spring-6-0-is-out-of-beta-533ad6c8b4a</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/25.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/25.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.29]]></title><description><![CDATA[<h3>2018.10.29</h3>
 <p>[新闻] 全部 React.js 会议视频的索引网站，大家可以关注下 React Conf 2018 的视频：<a href="https://www.reactjsvideos.com/">https://www.reactjsvideos.com/</a></p>
 <p>[类库] 在 React 16.7 中使用一个有用的工具集合（挺好玩，有点像 Faker）：<a href="https://github.com/kitze/react-hanger">https://github.com/kitze/react-hanger</a></p>
 <p>[类库] Experimental React hooks implementation in Vue：<a href="https://github.com/yyx990803/vue-hooks">https://github.com/yyx990803/vue-hooks</a></p>
@@ -279,11 +303,7 @@ console.log(require('os').tmpdir());
 <p>[新闻] create-react-app 发布 2.1，支持 TypeScript：<a href="https://github.com/facebook/create-react-app/releases/tag/v2.1.0">https://github.com/facebook/create-react-app/releases/tag/v2.1.0</a></p>
 <p>[类库] git commit message emoji 使用指南：<a href="https://github.com/liuchengxu/git-commit-emoji-cn">https://github.com/liuchengxu/git-commit-emoji-cn</a></p>
 <p>[新闻] vue-hooks：<a href="https://mobile.twitter.com/youyuxi/status/1057148450519871489">https://mobile.twitter.com/youyuxi/status/1057148450519871489</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/31.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/31.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.25]]></title><description><![CDATA[<h3>2018.10.25</h3>
-<p>[类库] 使用 tensorflow.js 在浏览器中进行人脸检测和人脸识别的 JavaScript API：<a href="https://github.com/justadudewhohacks/face-api.js">https://github.com/justadudewhohacks/face-api.js</a></p>
-<p>[类库] 演示 React 16.6 新特性的 Demo：<a href="https://github.com/sergiodxa/react-lazy-memo">https://github.com/sergiodxa/react-lazy-memo</a></p>
-<p>[类库] react-spring 发布 6.0（动画效果很炫）<a href="https://medium.com/@drcmda/react-spring-6-0-is-out-of-beta-533ad6c8b4a">https://medium.com/@drcmda/react-spring-6-0-is-out-of-beta-533ad6c8b4a</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/25.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/25.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.11.02]]></title><description><![CDATA[<h3>2018.11.02</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/31.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/31.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.11.02]]></title><description><![CDATA[<h3>2018.11.02</h3>
 <p>[工具] VSCode JavaScript Snippets 能大量简化写法，比如 import from，如果想看更多可以去 GitHub 搜索 VSCode Snippets：<a href="https://github.com/xabikos/vscode-javascript">https://github.com/xabikos/vscode-javascript</a></p>
 <p>[类库] Webpack 二级缓存，加快启动时间：<a href="https://github.com/mzgoddard/hard-source-webpack-plugin">https://github.com/mzgoddard/hard-source-webpack-plugin</a></p>
 <p>[类库] 在命令行中显示图表，我能想到的场景是，在构建多个项目时，能直观的看到哪个项目构建的比较久。<a href="https://github.com/chunqiuyiyu/ervy">https://github.com/chunqiuyiyu/ervy</a></p>
@@ -361,4 +381,9 @@ console.log(require('os').tmpdir());
 <p>[文章] Babel Scope 的优缺点：<a href="https://github.com/babel/babel/blob/master/doc/design/monorepo.md">https://github.com/babel/babel/blob/master/doc/design/monorepo.md</a></p>
 <h4>配图 - 秒杀系统设计与实现，互联网工程师进阶与分析</h4>
 <p><img src="https://raw.githubusercontent.com/qiurunze123/imageall/master/miaosha.png" alt="秒杀"></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/12/25.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/25.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item></channel></rss>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/25.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/25.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.27]]></title><description><![CDATA[<h3>2018.12.27</h3>
+<p>[工具] 变量命名神器 Codelf 是为了解决 <a href="https://www.zhihu.com/question/27097399/answer/78619944">编程的时候命名方法或变量词穷了怎么办？</a> 的一个方案：<a href="https://github.com/unbug/codelf">https://github.com/unbug/codelf</a></p>
+<p>[类库] 跟音乐符号相关的类库，挺有意思：<a href="https://github.com/madewithlove/music-fns">https://github.com/madewithlove/music-fns</a></p>
+<p>[类库] SWC 编译器会分析、删除或优化有缺陷的代码。让 JavaScript 编译成更好的 JavaScript。类似于 <a href="https://github.com/google/closure-compiler">Google Closure Compiler</a> 工具。使用 Rust 语言编写：<a href="https://github.com/swc-project/swc">https://github.com/swc-project/swc</a></p>
+<p>[文章] 用 JavaScript 实现的算法和数据结构：<a href="https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md">https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/27.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/27.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item></channel></rss>
