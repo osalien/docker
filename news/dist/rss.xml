@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[每日分享]]></title><description><![CDATA[每日分享，会以IT技术体系为主要分享课题。内容会以：文章、工具、新闻、视频几大板块作为主要分类。]]></description><link>https://iamyuanzhao.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Jun 2019 02:58:18 GMT</lastBuildDate><atom:link href="https://iamyuanzhao.github.io/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2019每日分享]]></copyright><language><![CDATA[zh-CN]]></language><item><title><![CDATA[2019.06.03]]></title><description><![CDATA[<h3>2019.06.03</h3>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[每日分享]]></title><description><![CDATA[每日分享，会以IT技术体系为主要分享课题。内容会以：文章、工具、新闻、视频几大板块作为主要分类。]]></description><link>https://iamyuanzhao.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Jun 2019 03:00:26 GMT</lastBuildDate><atom:link href="https://iamyuanzhao.github.io/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2019每日分享]]></copyright><language><![CDATA[zh-CN]]></language><item><title><![CDATA[2019.06.03]]></title><description><![CDATA[<h3>2019.06.03</h3>
 <p>[新闻] TypeScript 3.5 发布，构建时间减少 68%、新增 Omit 类型、UMD 全局访问等等：<a href="https://devblogs.microsoft.com/typescript/announcing-typescript-3-5/">https://devblogs.microsoft.com/typescript/announcing-typescript-3-5/</a></p>
 <p>[工具] 有些算法很难在短时间内很好的理解，所以 algorithm-visualizer 提供了一套可视化学习算法的平台，它提供了一个实时的效果，和 NodeJS、Java 代码的案例，能实时看到当前代码执行的是哪段；我学习归并排序时，对我帮助挺大；说多少，不如看一下效果图，<a href="https://algorithm-visualizer.org/brute-force/selection-sort">演示效果</a>：<a href="https://github.com/algorithm-visualizer/algorithm-visualizer">https://github.com/algorithm-visualizer/algorithm-visualizer</a></p>
 <p>[技巧] VSCode 新增了 Shrink/expand selection 操作，和 Vim 的 <code>di(</code> 效果一样：<a href="https://code.visualstudio.com/docs/editor/codebasics#_shrinkexpand-selection">https://code.visualstudio.com/docs/editor/codebasics#_shrinkexpand-selection</a></p>
@@ -115,17 +115,18 @@ console.log(require('os').tmpdir());
 </code></pre>
 <h3>今日图 - 新手 VS 工作 3 年老司机的工作态度</h3>
 <p><img src="https://user-gold-cdn.xitu.io/2019/5/30/16b06e06a0c681af?imageView2/2/w/800/q/100" alt=""></p>
-]]></description><link>https://iamyuanzhao.github.io/2019/05/31.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2019/05/31.html</guid><pubDate>Tue, 04 Jun 2019 02:11:08 GMT</pubDate></item><item><title><![CDATA[2018.08.29]]></title><description><![CDATA[<h3>2018.08.29</h3>
+]]></description><link>https://iamyuanzhao.github.io/2019/05/31.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2019/05/31.html</guid><pubDate>Tue, 04 Jun 2019 02:11:08 GMT</pubDate></item><item><title><![CDATA[2018.08.27]]></title><description><![CDATA[<h3>2018.08.27</h3>
+<p>[工具] 任务管理器，基于 React 桌面应用：<a href="https://github.com/joshwcomeau/guppy">https://github.com/joshwcomeau/guppy</a></p>
+<p>[工具] Chrome 实验室出版的对 Webpack 打包再次压缩的扩展：<a href="https://github.com/GoogleChromeLabs/size-plugin">https://github.com/GoogleChromeLabs/size-plugin</a></p>
+<p>[工具] 基于 OpenGl 开发我的世界，这个有点牛逼：<a href="https://github.com/fogleman/Craft">https://github.com/fogleman/Craft</a></p>
+<p>[类库] 录制 ChromeLess（Puppeteer）无头浏览器的工具，我畅想以后的 TDD 测试都不用写代码，录制然后执行脚本就好了：<a href="https://github.com/checkly/puppeteer-recorder">https://github.com/checkly/puppeteer-recorder</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/08/27.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/08/27.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.08.29]]></title><description><![CDATA[<h3>2018.08.29</h3>
 <p>[新闻] babel@7 正式发布：<a href="https://babeljs.io/blog/2018/08/27/7.0.0">https://babeljs.io/blog/2018/08/27/7.0.0</a></p>
 <p>[类库] fastpack，功能少，但速度快，1000 个模块仅需 1s：<a href="https://github.com/fastpack/fastpack">https://github.com/fastpack/fastpack</a></p>
 <p>[文章] Vue-CLI-3 的 ppt：<a href="https://slides.com/akryum/vue-cli">https://slides.com/akryum/vue-cli</a></p>
 <p>[文章] Elm 发布 0.19：<a href="https://github.com/elm/compiler/blob/master/upgrade-docs/0.19.md">https://github.com/elm/compiler/blob/master/upgrade-docs/0.19.md</a></p>
 <p>[工具] Coder IDE，云 IDE，类 vscode，不开源：<a href="https://dev.to/sethusenthil/coder-ide---the-next-gen-ide-on-the--1b99">https://dev.to/sethusenthil/coder-ide---the-next-gen-ide-on-the--1b99</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/08/29.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/08/29.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.08.28]]></title><description><![CDATA[<h3>2018.08.28</h3>
-<p>[工具] 别写样式，用 Tailwind 配样式：<a href="https://frontendnews.io/editions/2018-08-08-tailwind-css-tutorial">https://frontendnews.io/editions/2018-08-08-tailwind-css-tutorial</a></p>
-<p>[新闻] Chrome 69 beta 特性预览，可以关注下，比如支持了 conic-gradient：<a href="https://blog.chromium.org/2018/08/chrome-69-beta-av1-video-decoder-css.html">https://blog.chromium.org/2018/08/chrome-69-beta-av1-video-decoder-css.html</a></p>
-<p>[工具] 一个 TODO 管理命令行工具，颜值还不错：<a href="https://github.com/klauscfhq/taskbook">https://github.com/klauscfhq/taskbook</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/08/28.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/08/28.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.08.30]]></title><description><![CDATA[<h3>2018.08.30</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/08/29.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/08/29.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.08.30]]></title><description><![CDATA[<h3>2018.08.30</h3>
 <p>[工具] 终于找到这货了，支持演示 PPT 时滚动、缩放和高亮代码里的指定行列，配合 mdx-deck 使用：<a href="https://github.com/pomber/code-surfer">https://github.com/pomber/code-surfer</a></p>
 <p>[工具] 通过 overscroll-behavior 可管理滚动条缓存：<a href="https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/">https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/</a></p>
 <p>[文章] Vue Toolbox，类似 www.ruby-toolbox.com：<a href="http://www.vuetoolbox.com">http://www.vuetoolbox.com</a></p>
@@ -184,20 +185,16 @@ console.log(require('os').tmpdir());
 <p>[新闻] Github Desktop 发布 1.4，merge 之前显示是否有冲突：<a href="https://blog.github.com/2018-09-12-github-desktop-1-4/">https://blog.github.com/2018-09-12-github-desktop-1-4/</a></p>
 <p>[视频] Build a real-time translation app from scratch using Node.JS and Tensorflow.js,：<a href="https://www.youtube.com/watch?v=CMank9YmtTM">https://www.youtube.com/watch?v=CMank9YmtTM</a></p>
 <p>[工具] You Dont Need 系列的库都不错：<a href="https://github.com/you-dont-need/You-Dont-Need-Momentjs">https://github.com/you-dont-need/You-Dont-Need-Momentjs</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/14.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/14.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.15]]></title><description><![CDATA[<h3>2018.09.15</h3>
-<p>[文章] 无界面模式 xvfb：<a href="https://blog.csdn.net/dyh19911008/article/details/78728106">https://blog.csdn.net/dyh19911008/article/details/78728106</a></p>
-<p>[工具] tink 一个新的 npm 依赖管理器：<a href="https://github.com/npm/tink">https://github.com/npm/tink</a></p>
-<p>[文章] 每周更新一次论文的代码，根据 Starts 排序：<a href="https://github.com/zziz/pwc">https://github.com/zziz/pwc</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/15.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/15.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.17]]></title><description><![CDATA[<h3>2018.09.17</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/14.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/14.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.17]]></title><description><![CDATA[<h3>2018.09.17</h3>
 <p>[新闻] Next Generation Package Management：<a href="https://blog.npmjs.org/post/178027064160/next-generation-package-management">https://blog.npmjs.org/post/178027064160/next-generation-package-management</a></p>
 <p>[类库] Acorn 发布 6.0，默认 ES2018，TS 支持等：<a href="https://github.com/acornjs/acorn">https://github.com/acornjs/acorn</a></p>
 <p>[文章] yarn 关于新的依赖安装的 rfc，提升安装速度 70% 等：<a href="https://github.com/yarnpkg/rfcs/pull/101">https://github.com/yarnpkg/rfcs/pull/101</a></p>
 <p>[文章] Github 出的开源指引，有中文：<a href="https://github.com/github/opensource.guide">https://github.com/github/opensource.guide</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/17.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/17.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.18]]></title><description><![CDATA[<h3>2018.09.18</h3>
-<p>[工具] HTML 转 Markdown：<a href="https://github.com/domchristie/turndown">https://github.com/domchristie/turndown</a></p>
-<p>[文章] 如何看待 CSS 中 BEM 的命名方式：<a href="https://www.zhihu.com/question/21935157">https://www.zhihu.com/question/21935157</a></p>
-<p>[工具] 一个查看网络情况的小工具：<a href="https://github.com/woodruffw/twa">https://github.com/woodruffw/twa</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/18.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/18.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.19]]></title><description><![CDATA[<h3>2018.09.19</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/17.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/17.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.15]]></title><description><![CDATA[<h3>2018.09.15</h3>
+<p>[文章] 无界面模式 xvfb：<a href="https://blog.csdn.net/dyh19911008/article/details/78728106">https://blog.csdn.net/dyh19911008/article/details/78728106</a></p>
+<p>[工具] tink 一个新的 npm 依赖管理器：<a href="https://github.com/npm/tink">https://github.com/npm/tink</a></p>
+<p>[文章] 每周更新一次论文的代码，根据 Starts 排序：<a href="https://github.com/zziz/pwc">https://github.com/zziz/pwc</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/15.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/15.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.19]]></title><description><![CDATA[<h3>2018.09.19</h3>
 <p>[工具] FramerX 出了，令人惊艳的前端可视化工具：<a href="https://framer.com/">https://framer.com/</a></p>
 <p>[工具] Electron 发布 3.0：<a href="https://electronjs.org/blog/electron-3-0">https://electronjs.org/blog/electron-3-0</a></p>
 <p>[新闻] create-react-app v2 将至：<a href="https://github.com/facebook/create-react-app/issues/5024">https://github.com/facebook/create-react-app/issues/5024</a></p>
@@ -206,26 +203,26 @@ console.log(require('os').tmpdir());
 <p>[新闻] Babel 发布 7.1：<a href="https://github.com/babel/babel/releases/tag/v7.1.0">https://github.com/babel/babel/releases/tag/v7.1.0</a></p>
 <p>[新闻] Gatsby 发布 2.0：<a href="https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/">https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/</a></p>
 <p>[类库] worker-plugin，让 webpack 支持 worker 打包：<a href="https://github.com/GoogleChromeLabs/worker-plugin">https://github.com/GoogleChromeLabs/worker-plugin</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/20.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/20.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.21]]></title><description><![CDATA[<h3>2018.09.21</h3>
-<p>[类库] PostCSS 变量命名规则检测器：<a href="https://github.com/postcss/postcss-bem-linter">https://github.com/postcss/postcss-bem-linter</a></p>
-<p>[工具] Now 的 mobile 版，支持 iwatch，基于：react-native：<a href="https://github.com/rdev/now-mobile">https://github.com/rdev/now-mobile</a></p>
-<p>[文章] 关于 Chrome DevTool 最详细的 PPT：<a href="https://umaar.github.io/performance-debugging-devtools-2018/">https://umaar.github.io/performance-debugging-devtools-2018/</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/21.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/21.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.22]]></title><description><![CDATA[<h3>2018.09.22</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/20.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/20.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.22]]></title><description><![CDATA[<h3>2018.09.22</h3>
 <p>[文章] 腾讯云，开发手册（很棒）：<a href="https://cloud.tencent.com/developer/section/1135572">https://cloud.tencent.com/developer/section/1135572</a></p>
 <p>[文章] 提升代码质量的 7 条建议:<a href="https://dev.to/aspittel/extreme-makeover-code-edition-k5k">https://dev.to/aspittel/extreme-makeover-code-edition-k5k</a></p>
 <p>[工具] 一个 TODO 管理命令行工具，颜值不错:<a href="https://github.com/klauscfhq/taskbook">https://github.com/klauscfhq/taskbook</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/22.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/22.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.27]]></title><description><![CDATA[<h3>2018.09.27</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/22.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/22.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.21]]></title><description><![CDATA[<h3>2018.09.21</h3>
+<p>[类库] PostCSS 变量命名规则检测器：<a href="https://github.com/postcss/postcss-bem-linter">https://github.com/postcss/postcss-bem-linter</a></p>
+<p>[工具] Now 的 mobile 版，支持 iwatch，基于：react-native：<a href="https://github.com/rdev/now-mobile">https://github.com/rdev/now-mobile</a></p>
+<p>[文章] 关于 Chrome DevTool 最详细的 PPT：<a href="https://umaar.github.io/performance-debugging-devtools-2018/">https://umaar.github.io/performance-debugging-devtools-2018/</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/21.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/21.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.28]]></title><description><![CDATA[<h3>2018.09.28</h3>
+<p>[新闻] CodeSandbox 支持 Containers 云编程的时代已经来了：<a href="https://hackernoon.com/codesandbox-containers-5864a8f26715">https://hackernoon.com/codesandbox-containers-5864a8f26715</a></p>
+<p>[新闻] TypeScript 发布 3.1：<a href="https://blogs.msdn.microsoft.com/typescript/announcing-typescript-3-1/">https://blogs.msdn.microsoft.com/typescript/announcing-typescript-3-1/</a></p>
+<p>[工具] PixelSnap，可以在屏幕上随便量尺寸，切图必备，$15：<a href="https://getpixelsnap.com/">https://getpixelsnap.com/</a></p>
+<p>[视频] 介绍如何使用 babel-plugin-macros：<a href="https://www.youtube.com/watch?v=1ERAJG9ILhk">https://www.youtube.com/watch?v=1ERAJG9ILhk</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/28.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/28.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.27]]></title><description><![CDATA[<h3>2018.09.27</h3>
 <p>[新闻] next.js 发布 7.0，webpack@4、babel@7、hard-source-webpack-plugin 等：<a href="https://github.com/zeit/next.js/releases/tag/7.0.0">https://github.com/zeit/next.js/releases/tag/7.0.0</a></p>
 <p>[工具] trix 发布 1.0，Basecamp 出的富文本编辑器，颜值不错：<a href="https://github.com/basecamp/trix/releases/tag/1.0.0">https://github.com/basecamp/trix/releases/tag/1.0.0</a></p>
 <p>[工具] Facebook 开源 skip lang，看起来非常不错，之后应该是会支持编译成 JavaScript 的：<a href="http://skiplang.com/">http://skiplang.com/</a></p>
 <p>[视频] FramerX 课程，限时免费：<a href="https://designcode.io/framer-x-course/">https://designcode.io/framer-x-course/</a></p>
 <p>[文章] Implementing single file Web Components，类似 vuex 的方式：<a href="https://medium.com/content-uneditable/implementing-single-file-web-components-22adeaa0cd17">https://medium.com/content-uneditable/implementing-single-file-web-components-22adeaa0cd17</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/27.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/27.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.28]]></title><description><![CDATA[<h3>2018.09.28</h3>
-<p>[新闻] CodeSandbox 支持 Containers 云编程的时代已经来了：<a href="https://hackernoon.com/codesandbox-containers-5864a8f26715">https://hackernoon.com/codesandbox-containers-5864a8f26715</a></p>
-<p>[新闻] TypeScript 发布 3.1：<a href="https://blogs.msdn.microsoft.com/typescript/announcing-typescript-3-1/">https://blogs.msdn.microsoft.com/typescript/announcing-typescript-3-1/</a></p>
-<p>[工具] PixelSnap，可以在屏幕上随便量尺寸，切图必备，$15：<a href="https://getpixelsnap.com/">https://getpixelsnap.com/</a></p>
-<p>[视频] 介绍如何使用 babel-plugin-macros：<a href="https://www.youtube.com/watch?v=1ERAJG9ILhk">https://www.youtube.com/watch?v=1ERAJG9ILhk</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/09/28.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/28.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.29]]></title><description><![CDATA[<h3>2018.09.29</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/09/27.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/09/27.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.09.29]]></title><description><![CDATA[<h3>2018.09.29</h3>
 <p>[新闻] Create React APP 升级到 V2 版本：<a href="https://github.com/facebook/create-react-app/issues/5103">https://github.com/facebook/create-react-app/issues/5103</a></p>
 <p>[工具] NPX 是什么？<a href="https://www.jianshu.com/p/cee806439865">https://www.jianshu.com/p/cee806439865</a></p>
 <p>[工具] Now（场景：Yarn Build 后，怎么快速启动一个服务？来验证线上是否正常，还在用 PHP -S localhost -t /dist 吗？）<a href="https://zeit.co/now">https://zeit.co/now</a></p>
@@ -242,20 +239,15 @@ console.log(require('os').tmpdir());
 <p>[视频] 利用 Promise.race 避免初始 loading 数据时的闪屏：<a href="https://www.youtube.com/watch?v=QPDA4QwkJxk">https://www.youtube.com/watch?v=QPDA4QwkJxk</a></p>
 <p>[类库] tiptap，基于 vue 的 renderless 和可扩展的富文本编辑器：<a href="https://github.com/heyscrumpy/tiptap">https://github.com/heyscrumpy/tiptap</a></p>
 <p>[类库] unique-classname.macro，为 emotion 生成唯一的 css className，效果类似 css modules：<a href="https://github.com/huchenme/unique-classname.macro">https://github.com/huchenme/unique-classname.macro</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/11.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/11.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.15]]></title><description><![CDATA[<h3>2018.10.15</h3>
-<p>[类库] GraphQL 的 JavaScript 实现方案：<a href="https://github.com/f/graphql.js">https://github.com/f/graphql.js</a></p>
-<p>[文章] 阮一峰的每周分享，从博客迁移到微信又迁移到 GitHub 上了：<a href="https://github.com/ruanyf/weekly">https://github.com/ruanyf/weekly</a></p>
-<p>[工具] 代码截图工具，以后不用 QQ 截图啦。Carbon 可以很容易的为你的代码创建漂亮的图片：<a href="https://github.com/dawnlabs/carbon/blob/master/docs/README.cn.zh.md">https://github.com/dawnlabs/carbon/blob/master/docs/README.cn.zh.md</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/15.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/15.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.16]]></title><description><![CDATA[<h3>2018.10.16</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/11.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/11.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.16]]></title><description><![CDATA[<h3>2018.10.16</h3>
 <p>[思路] 有一个 20 条数据的数组，如何让一个异步请求完数据后，在去做其它异步请求？使用最传统的递归即可 - -！！！：<a href="https://blog.csdn.net/chdyiboke/article/details/81914257">https://blog.csdn.net/chdyiboke/article/details/81914257</a></p>
 <p>[工具] VS Code 必装的 10 个开发工具，（又遇见 Code Runner 了）：<a href="http://blog.parryqiu.com/2018/10/15/vscode_top_ten_plugins/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io">http://blog.parryqiu.com/2018/10/15/vscode_top_ten_plugins/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io</a></p>
 <p>[工具] 三种工具对比 top vs Htop vs Glances，其中 Glances 可以把系统监控放到 Kafka 里：<a href="https://mp.weixin.qq.com/s/_YdwciFT6qu5_kUIyylR2g">https://mp.weixin.qq.com/s/_YdwciFT6qu5_kUIyylR2g</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/16.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/16.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.18]]></title><description><![CDATA[<h3>2018.10.18</h3>
-<p>[新闻] codesandbox 成功把 vscode 搬到浏览器上了：<a href="https://mobile.twitter.com/CompuIves/status/1052594462768148480">https://mobile.twitter.com/CompuIves/status/1052594462768148480</a></p>
-<p>[新闻] react-router 发布 4.4.0-beta.2，打包出了 esm 模块，使用时尺寸会更小：<a href="https://github.com/ReactTraining/react-router/releases/tag/v4.4.0-beta.2">https://github.com/ReactTraining/react-router/releases/tag/v4.4.0-beta.2</a></p>
-<p>[新闻] styled-compoennts 发布 4.0，支持 babel macros，ref 和 as 属性：<a href="https://medium.com/styled-components/styled-components-v4-new-final-finalest-for-real-final-final-psd-fa4d83398a77">https://medium.com/styled-components/styled-components-v4-new-final-finalest-for-real-final-final-psd-fa4d83398a77</a></p>
-<p>[文章] Introducing GitHub Actions：<a href="https://css-tricks.com/introducing-github-actions/">https://css-tricks.com/introducing-github-actions/</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/18.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/18.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.19]]></title><description><![CDATA[<h3>2018.10.19</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/16.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/16.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.15]]></title><description><![CDATA[<h3>2018.10.15</h3>
+<p>[类库] GraphQL 的 JavaScript 实现方案：<a href="https://github.com/f/graphql.js">https://github.com/f/graphql.js</a></p>
+<p>[文章] 阮一峰的每周分享，从博客迁移到微信又迁移到 GitHub 上了：<a href="https://github.com/ruanyf/weekly">https://github.com/ruanyf/weekly</a></p>
+<p>[工具] 代码截图工具，以后不用 QQ 截图啦。Carbon 可以很容易的为你的代码创建漂亮的图片：<a href="https://github.com/dawnlabs/carbon/blob/master/docs/README.cn.zh.md">https://github.com/dawnlabs/carbon/blob/master/docs/README.cn.zh.md</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/15.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/15.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.19]]></title><description><![CDATA[<h3>2018.10.19</h3>
 <p>[文章] 禁止 referrer 和 夸脚本攻击 opener ：<a href="https://www.yuque.com/afx/blog/xifli0">https://www.yuque.com/afx/blog/xifli0</a></p>
 <p>[文章] 美团技术团队《深度剖析开源分布式监控 CAT》：<a href="https://tech.meituan.com/CAT_in_Depth_Java_Application_Monitoring.html">https://tech.meituan.com/CAT_in_Depth_Java_Application_Monitoring.html</a></p>
 <p>[文章] 阿里云两个监控系统：&lt;https://www.aliyun.com/product/jiankong/、业务实时监控，支持前端监控：https://www.aliyun.com/product/arms &gt;</p>
@@ -263,15 +255,15 @@ console.log(require('os').tmpdir());
 <p>[类库] 可扩展的日志记录器：<a href="https://github.com/klauscfhq/signale/blob/master/docs/readme.zh_CN.md">https://github.com/klauscfhq/signale/blob/master/docs/readme.zh_CN.md</a></p>
 <p>[类库] 在终端可以高亮输出字符串：<a href="https://github.com/chalk/chalk">https://github.com/chalk/chalk</a></p>
 <p>[类库] 可以输出代码错误行和列：<a href="https://www.npmjs.com/package/babel-code-frame">https://www.npmjs.com/package/babel-code-frame</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/22.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/22.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.23]]></title><description><![CDATA[<h3>2018.10.23</h3>
-<p>[文章] mock 本身就支持生成列表（Faker）数据：<a href="https://github.com/nuysoft/Mock/wiki/Getting-Started">https://github.com/nuysoft/Mock/wiki/Getting-Started</a></p>
-<p>[文章] 每个人都应该知道的 JavaScript 33 个概念：<a href="https://github.com/leonardomso/33-js-concepts">https://github.com/leonardomso/33-js-concepts</a></p>
-<p>[类库] 非常适合现场编程演示，给你的朋友留下深刻的印象，或者只是让自己看起来很忙（假装我是黑客）：<a href="https://github.com/jevakallio/vscode-hacker-typer">https://github.com/jevakallio/vscode-hacker-typer</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/23.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/23.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.24]]></title><description><![CDATA[<h3>2018.10.24</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/22.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/22.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.24]]></title><description><![CDATA[<h3>2018.10.24</h3>
 <p>[文章] (a==1 &amp;&amp; a==2 &amp;&amp; a==3)能输出 ture 么？：<a href="https://segmentfault.com/a/1190000012921114">https://segmentfault.com/a/1190000012921114</a></p>
 <p>[文章] React 优化-记忆化技术-使用闭包提升你的 React 性能：<a href="https://segmentfault.com/a/1190000015301672">https://segmentfault.com/a/1190000015301672</a></p>
 <p>[类库] 在浏览器使用 fs：<a href="https://github.com/suchipi/fs-remote">https://github.com/suchipi/fs-remote</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/24.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/24.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.25]]></title><description><![CDATA[<h3>2018.10.25</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/24.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/24.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.23]]></title><description><![CDATA[<h3>2018.10.23</h3>
+<p>[文章] mock 本身就支持生成列表（Faker）数据：<a href="https://github.com/nuysoft/Mock/wiki/Getting-Started">https://github.com/nuysoft/Mock/wiki/Getting-Started</a></p>
+<p>[文章] 每个人都应该知道的 JavaScript 33 个概念：<a href="https://github.com/leonardomso/33-js-concepts">https://github.com/leonardomso/33-js-concepts</a></p>
+<p>[类库] 非常适合现场编程演示，给你的朋友留下深刻的印象，或者只是让自己看起来很忙（假装我是黑客）：<a href="https://github.com/jevakallio/vscode-hacker-typer">https://github.com/jevakallio/vscode-hacker-typer</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/23.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/23.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.25]]></title><description><![CDATA[<h3>2018.10.25</h3>
 <p>[类库] 使用 tensorflow.js 在浏览器中进行人脸检测和人脸识别的 JavaScript API：<a href="https://github.com/justadudewhohacks/face-api.js">https://github.com/justadudewhohacks/face-api.js</a></p>
 <p>[类库] 演示 React 16.6 新特性的 Demo：<a href="https://github.com/sergiodxa/react-lazy-memo">https://github.com/sergiodxa/react-lazy-memo</a></p>
 <p>[类库] react-spring 发布 6.0（动画效果很炫）<a href="https://medium.com/@drcmda/react-spring-6-0-is-out-of-beta-533ad6c8b4a">https://medium.com/@drcmda/react-spring-6-0-is-out-of-beta-533ad6c8b4a</a></p>
@@ -279,23 +271,23 @@ console.log(require('os').tmpdir());
 <p>[新闻] 全部 React.js 会议视频的索引网站，大家可以关注下 React Conf 2018 的视频：<a href="https://www.reactjsvideos.com/">https://www.reactjsvideos.com/</a></p>
 <p>[类库] 在 React 16.7 中使用一个有用的工具集合（挺好玩，有点像 Faker）：<a href="https://github.com/kitze/react-hanger">https://github.com/kitze/react-hanger</a></p>
 <p>[类库] Experimental React hooks implementation in Vue：<a href="https://github.com/yyx990803/vue-hooks">https://github.com/yyx990803/vue-hooks</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/29.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/29.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.31]]></title><description><![CDATA[<h3>2018.10.31</h3>
-<p>[新闻] create-react-app 发布 2.1，支持 TypeScript：<a href="https://github.com/facebook/create-react-app/releases/tag/v2.1.0">https://github.com/facebook/create-react-app/releases/tag/v2.1.0</a></p>
-<p>[类库] git commit message emoji 使用指南：<a href="https://github.com/liuchengxu/git-commit-emoji-cn">https://github.com/liuchengxu/git-commit-emoji-cn</a></p>
-<p>[新闻] vue-hooks：<a href="https://mobile.twitter.com/youyuxi/status/1057148450519871489">https://mobile.twitter.com/youyuxi/status/1057148450519871489</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/10/31.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/31.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.11.02]]></title><description><![CDATA[<h3>2018.11.02</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/29.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/29.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.11.02]]></title><description><![CDATA[<h3>2018.11.02</h3>
 <p>[工具] VSCode JavaScript Snippets 能大量简化写法，比如 import from，如果想看更多可以去 GitHub 搜索 VSCode Snippets：<a href="https://github.com/xabikos/vscode-javascript">https://github.com/xabikos/vscode-javascript</a></p>
 <p>[类库] Webpack 二级缓存，加快启动时间：<a href="https://github.com/mzgoddard/hard-source-webpack-plugin">https://github.com/mzgoddard/hard-source-webpack-plugin</a></p>
 <p>[类库] 在命令行中显示图表，我能想到的场景是，在构建多个项目时，能直观的看到哪个项目构建的比较久。<a href="https://github.com/chunqiuyiyu/ervy">https://github.com/chunqiuyiyu/ervy</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/11/02.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/11/02.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.11.05]]></title><description><![CDATA[<h3>2018.11.05</h3>
-<p>[新闻] Yarn 1.12.1 已切到 Stable tag，PNP 可以用起来了：<a href="https://github.com/yarnpkg/yarn/releases/tag/v1.12.1">https://github.com/yarnpkg/yarn/releases/tag/v1.12.1</a></p>
-<p>[新闻] GitHub 支持 Transfer issue 到其他仓库：<a href="https://twitter.com/natfriedman/status/1057678371256119297">https://twitter.com/natfriedman/status/1057678371256119297</a></p>
-<p>[类库] Google 出的类 Electron 工具，打包基于 PKG：<a href="https://github.com/GoogleChromeLabs/carlo">https://github.com/GoogleChromeLabs/carlo</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/11/05.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/11/05.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.11.06]]></title><description><![CDATA[<h3>2018.11.06</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/11/02.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/11/02.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.10.31]]></title><description><![CDATA[<h3>2018.10.31</h3>
+<p>[新闻] create-react-app 发布 2.1，支持 TypeScript：<a href="https://github.com/facebook/create-react-app/releases/tag/v2.1.0">https://github.com/facebook/create-react-app/releases/tag/v2.1.0</a></p>
+<p>[类库] git commit message emoji 使用指南：<a href="https://github.com/liuchengxu/git-commit-emoji-cn">https://github.com/liuchengxu/git-commit-emoji-cn</a></p>
+<p>[新闻] vue-hooks：<a href="https://mobile.twitter.com/youyuxi/status/1057148450519871489">https://mobile.twitter.com/youyuxi/status/1057148450519871489</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/10/31.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/10/31.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.11.06]]></title><description><![CDATA[<h3>2018.11.06</h3>
 <p>[类库] importAs() and HTML Modules：<a href="https://github.com/AshleyScirra/import-as-and-html-modules">https://github.com/AshleyScirra/import-as-and-html-modules</a></p>
 <p>[新闻] 三个法国学生用代码生成的画卖了 $43 万背后的故事：<a href="https://www.theverge.com/2018/10/23/18013190/ai-art-portrait-auction-christies-belamy-obvious-robbie-barrat-gans?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website">https://www.theverge.com/2018/10/23/18013190/ai-art-portrait-auction-christies-belamy-obvious-robbie-barrat-gans?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website</a></p>
 <p>[新闻] 作为工程师，是如何组织知识的（用 Notion 来做笔记、Wiki；用 Pocket 来收藏文章；用 SnippetStore 来收藏代码片段；到 DevHints 上看 cheat sheet；用 Diigo 来高亮网页里的内容）：<a href="https://dev.to/brpaz/how-do-i-organize-my-knowledge-as-a-software-engineer-4387?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website">https://dev.to/brpaz/how-do-i-organize-my-knowledge-as-a-software-engineer-4387?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/11/06.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/11/06.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.11.08]]></title><description><![CDATA[<h3>2018.11.08</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/11/06.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/11/06.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.11.05]]></title><description><![CDATA[<h3>2018.11.05</h3>
+<p>[新闻] Yarn 1.12.1 已切到 Stable tag，PNP 可以用起来了：<a href="https://github.com/yarnpkg/yarn/releases/tag/v1.12.1">https://github.com/yarnpkg/yarn/releases/tag/v1.12.1</a></p>
+<p>[新闻] GitHub 支持 Transfer issue 到其他仓库：<a href="https://twitter.com/natfriedman/status/1057678371256119297">https://twitter.com/natfriedman/status/1057678371256119297</a></p>
+<p>[类库] Google 出的类 Electron 工具，打包基于 PKG：<a href="https://github.com/GoogleChromeLabs/carlo">https://github.com/GoogleChromeLabs/carlo</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/11/05.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/11/05.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.11.08]]></title><description><![CDATA[<h3>2018.11.08</h3>
 <p>[新闻] 【牛逼】Taro 发布 1.1，支持百度和支付宝小程序，勤红组的研究课题有人做了：<a href="https://juejin.im/post/5be179b9f265da613d7b89ec">https://juejin.im/post/5be179b9f265da613d7b89ec</a></p>
 <p>[文章] Netflix 如何提升 tti 50%，方法是 react ssr，客户端删 react 换原生 js，两种方式的 preload 等，大流量的 landing page 值得借鉴：<a href="https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9">https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9</a></p>
 <p>[文章] 对 React Hooks 的一些思考：<a href="https://zhuanlan.zhihu.com/p/48264713">https://zhuanlan.zhihu.com/p/48264713</a></p>
@@ -327,20 +319,20 @@ console.log(require('os').tmpdir());
 <p>[类库] 新一类文档，DocZ：<a href="https://github.com/pedronauck/docz">https://github.com/pedronauck/docz</a></p>
 <p>[类库] ECMA AST 语法解析：<a href="https://github.com/estools/esquery">https://github.com/estools/esquery</a></p>
 <p>[新闻] autoprefixer 发布 9.4，支持 css grid：<a href="https://github.com/postcss/autoprefixer/releases/tag/9.4.0">https://github.com/postcss/autoprefixer/releases/tag/9.4.0</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/12/05.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/05.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.06]]></title><description><![CDATA[<h3>2018.12.06</h3>
-<p>[文章] 什么是牛人，一步一步分析 Vue-Webpack 配置项：<a href="https://www.cnblogs.com/zhangruiqi/p/9062005.html">https://www.cnblogs.com/zhangruiqi/p/9062005.html</a></p>
-<p>[新闻] Chrome 71 支持 background fetch，网页关闭后可继续下载：<a href="https://developers.google.com/web/updates/2018/12/background-fetch">https://developers.google.com/web/updates/2018/12/background-fetch</a></p>
-<p>[新闻] Node 语言使用 ncc 替换 rollup，我感觉 Vue 会紧随步伐：<a href="https://github.com/nodejs/node/pull/24813/files">https://github.com/nodejs/node/pull/24813/files</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/12/06.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/06.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.11]]></title><description><![CDATA[<h3>2018.12.11</h3>
-<p>[文章] Edge 确认用 Chromium 之后，Chrome 将形成新的垄断，Webkit 一统世界：<a href="https://ferdychristant.com/the-state-of-web-browsers-f5a83a41c1cb">https://ferdychristant.com/the-state-of-web-browsers-f5a83a41c1cb</a></p>
-<p>[文章] 执行 setState 后发生了什么，来自 dan 的文章：<a href="https://overreacted.io/how-does-setstate-know-what-to-do/">https://overreacted.io/how-does-setstate-know-what-to-do/</a></p>
-<p>[文章] Serverless SSR，学习试例：<a href="https://zeit.co/blog/serverless-ssr">https://zeit.co/blog/serverless-ssr</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/12/11.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/11.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.14]]></title><description><![CDATA[<h3>2018.12.14</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/05.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/05.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.14]]></title><description><![CDATA[<h3>2018.12.14</h3>
 <p>[类库] Puppeteer-Firefox，Firefox 版本的 Puppeteer：<a href="https://github.com/GoogleChrome/puppeteer/tree/master/experimental/puppeteer-firefox">https://github.com/GoogleChrome/puppeteer/tree/master/experimental/puppeteer-firefox</a></p>
 <p>[文章] 篡改 npm 包盗取比特币始末：<a href="https://zhuanlan.zhihu.com/p/51546847">https://zhuanlan.zhihu.com/p/51546847</a></p>
 <p>[视频] 可以从 Google Chrome Dev 峰会上，看看别人是怎么讲解技术的：<a href="https://www.youtube.com/watch?v=mDdgfyRB5kg">https://www.youtube.com/watch?v=mDdgfyRB5kg</a></p>
 <p>[新闻] Ruby On Rails 6 将用 Webpack 作为默认的 JavaScript Compiler，牛逼的不行：<a href="https://github.com/rails/rails/pull/33079">https://github.com/rails/rails/pull/33079</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/12/14.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/14.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.17]]></title><description><![CDATA[<h3>2018.12.17</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/14.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/14.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.11]]></title><description><![CDATA[<h3>2018.12.11</h3>
+<p>[文章] Edge 确认用 Chromium 之后，Chrome 将形成新的垄断，Webkit 一统世界：<a href="https://ferdychristant.com/the-state-of-web-browsers-f5a83a41c1cb">https://ferdychristant.com/the-state-of-web-browsers-f5a83a41c1cb</a></p>
+<p>[文章] 执行 setState 后发生了什么，来自 dan 的文章：<a href="https://overreacted.io/how-does-setstate-know-what-to-do/">https://overreacted.io/how-does-setstate-know-what-to-do/</a></p>
+<p>[文章] Serverless SSR，学习试例：<a href="https://zeit.co/blog/serverless-ssr">https://zeit.co/blog/serverless-ssr</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/11.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/11.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.06]]></title><description><![CDATA[<h3>2018.12.06</h3>
+<p>[文章] 什么是牛人，一步一步分析 Vue-Webpack 配置项：<a href="https://www.cnblogs.com/zhangruiqi/p/9062005.html">https://www.cnblogs.com/zhangruiqi/p/9062005.html</a></p>
+<p>[新闻] Chrome 71 支持 background fetch，网页关闭后可继续下载：<a href="https://developers.google.com/web/updates/2018/12/background-fetch">https://developers.google.com/web/updates/2018/12/background-fetch</a></p>
+<p>[新闻] Node 语言使用 ncc 替换 rollup，我感觉 Vue 会紧随步伐：<a href="https://github.com/nodejs/node/pull/24813/files">https://github.com/nodejs/node/pull/24813/files</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/06.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/06.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.17]]></title><description><![CDATA[<h3>2018.12.17</h3>
 <p>[新闻] 阿里巴巴推出的一套 UI 组件，组件写的一般，不过可以借鉴设计概览：<a href="https://fusion.design/design/component/cascader">https://fusion.design/design/component/cascader</a></p>
 <p>[类库] Google 实验室项目，使用 requestIdleCallback 来检测 viewport 中的链接，可以实现后续页面预加载：<a href="https://github.com/GoogleChromeLabs/quicklink">https://github.com/GoogleChromeLabs/quicklink</a></p>
 <p>[类库] Webpack 排除依赖的模块：<a href="https://github.com/liady/webpack-node-externals">https://github.com/liady/webpack-node-externals</a></p>
@@ -349,16 +341,27 @@ console.log(require('os').tmpdir());
 <p>[工具] 监控 Github 代码仓库的系统，通过该系统可以及时发现企业内部代码泄露 ：<a href="https://github.com/VKSRC/Github-Monitor">https://github.com/VKSRC/Github-Monitor</a></p>
 <p>[类库] Markdown 转换文本格式：<a href="https://github.com/stiang/remove-markdown">https://github.com/stiang/remove-markdown</a></p>
 <p>[工具] 大将无能累死三军：<a href="https://www.yuque.com/crazygenius/hi/hpca3b">https://www.yuque.com/crazygenius/hi/hpca3b</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/12/20.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/20.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.24]]></title><description><![CDATA[<h3>2018.12.24</h3>
-<p>[工具] 下一代的代理，基于 Go 语言的 Shadowsocks2：<a href="https://github.com/shadowsocks/go-shadowsocks2">https://github.com/shadowsocks/go-shadowsocks2</a></p>
-<p>[文章] 互联网 Java 工程师进阶知识完全扫盲：<a href="https://github.com/doocs/advanced-java">https://github.com/doocs/advanced-java</a></p>
-<p>[文章] ECMAScript 提案：<a href="https://github.com/tc39/proposals">https://github.com/tc39/proposals</a></p>
-<p>[文章] 持续交付 36 讲，学习笔记，学习人家记录笔记的方式：<a href="https://qiankunli.github.io/2018/10/28/continuous_delivery_note.html">https://qiankunli.github.io/2018/10/28/continuous_delivery_note.html</a></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/12/24.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/24.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.25]]></title><description><![CDATA[<h3>2018.12.25</h3>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/20.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/20.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.25]]></title><description><![CDATA[<h3>2018.12.25</h3>
 <p>[文章] 秒杀系统设计与实现，互联网工程师进阶与分析：<a href="https://github.com/qiurunze123/miaosha">https://github.com/qiurunze123/miaosha</a></p>
 <p>[新闻] 每一个黑客和朋克都必须看的电影的策划清单：<a href="https://github.com/k4m4/movies-for-hackers">https://github.com/k4m4/movies-for-hackers</a></p>
 <p>[文章] 介绍 NPM 的 PPT，配图挺有意思的：<a href="https://ashleygwilliams.github.io/you-dont-know-npm/#37">https://ashleygwilliams.github.io/you-dont-know-npm/#37</a></p>
 <p>[文章] Babel Scope 的优缺点：<a href="https://github.com/babel/babel/blob/master/doc/design/monorepo.md">https://github.com/babel/babel/blob/master/doc/design/monorepo.md</a></p>
 <h4>配图 - 秒杀系统设计与实现，互联网工程师进阶与分析</h4>
 <p><img src="https://raw.githubusercontent.com/qiurunze123/imageall/master/miaosha.png" alt="秒杀"></p>
-]]></description><link>https://iamyuanzhao.github.io/2018/12/25.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/25.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item></channel></rss>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/25.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/25.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.24]]></title><description><![CDATA[<h3>2018.12.24</h3>
+<p>[工具] 下一代的代理，基于 Go 语言的 Shadowsocks2：<a href="https://github.com/shadowsocks/go-shadowsocks2">https://github.com/shadowsocks/go-shadowsocks2</a></p>
+<p>[文章] 互联网 Java 工程师进阶知识完全扫盲：<a href="https://github.com/doocs/advanced-java">https://github.com/doocs/advanced-java</a></p>
+<p>[文章] ECMAScript 提案：<a href="https://github.com/tc39/proposals">https://github.com/tc39/proposals</a></p>
+<p>[文章] 持续交付 36 讲，学习笔记，学习人家记录笔记的方式：<a href="https://qiankunli.github.io/2018/10/28/continuous_delivery_note.html">https://qiankunli.github.io/2018/10/28/continuous_delivery_note.html</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/24.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/24.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.27]]></title><description><![CDATA[<h3>2018.12.27</h3>
+<p>[工具] 变量命名神器 Codelf 是为了解决 <a href="https://www.zhihu.com/question/27097399/answer/78619944">编程的时候命名方法或变量词穷了怎么办？</a> 的一个方案：<a href="https://github.com/unbug/codelf">https://github.com/unbug/codelf</a></p>
+<p>[类库] 跟音乐符号相关的类库，挺有意思：<a href="https://github.com/madewithlove/music-fns">https://github.com/madewithlove/music-fns</a></p>
+<p>[类库] SWC 编译器会分析、删除或优化有缺陷的代码。让 JavaScript 编译成更好的 JavaScript。类似于 <a href="https://github.com/google/closure-compiler">Google Closure Compiler</a> 工具。使用 Rust 语言编写：<a href="https://github.com/swc-project/swc">https://github.com/swc-project/swc</a></p>
+<p>[文章] 用 JavaScript 实现的算法和数据结构：<a href="https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md">https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md</a></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/27.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/27.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item><item><title><![CDATA[2018.12.26]]></title><description><![CDATA[<h3>2018.12.26</h3>
+<p>[文章] 用动画的形式呈现解 LeetCode 题目的思路，动画的效果做的很好，感觉像是用 Keynote 做的：<a href="https://github.com/MisterBooo/LeetCodeAnimation">https://github.com/MisterBooo/LeetCodeAnimation</a></p>
+<p>[类库] 一个轻量级的动态栅格布局库；想法：其它 UI 库（Ant Design、Element UI）等的底层可以基于它来做：<a href="https://github.com/e-oj/Magic-Grid">https://github.com/e-oj/Magic-Grid</a></p>
+<p>[类库] 监控文件是否变化；想法：以 Vue CLI 3 举例，如果修改 <code>.env</code> 或 <code>.env.local</code> Webpack 是不更新的，可以用这个库来监听某些文件，从而重启 webpack-dev-server：<a href="https://github.com/paulmillr/chokidar">https://github.com/paulmillr/chokidar</a></p>
+<p>[文章] 可以替代 Linux du 命令的工具，通过一个漂亮的界面，查看磁盘大小：<a href="https://dev.yorhel.nl/ncdu">https://dev.yorhel.nl/ncdu</a>
+<img src="https://wx4.sinaimg.cn/large/62bfa70bly1fyjxwt1i8wj20u00v9gpo.jpg" alt="效果图"></p>
+]]></description><link>https://iamyuanzhao.github.io/2018/12/26.html</link><guid isPermaLink="true">https://iamyuanzhao.github.io/2018/12/26.html</guid><pubDate>Thu, 30 May 2019 05:54:40 GMT</pubDate></item></channel></rss>
