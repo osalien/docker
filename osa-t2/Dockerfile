@@ -1,11 +1,12 @@
-# 设置基础镜像 
+# ÉèÖÃ»ù´¡¾µÏñ 
 
 FROM nginx:1.15
 
-# 定义作者
+# ¶¨Òå×÷Õß
 
 MAINTAINER yuanzhao <me@osalien.com>
 
-# 将dist文件中的内容复制到 /usr/share/nginx/html/ 这个目录下面
+# ½«distÎÄ¼þÖÐµÄÄÚÈÝ¸´ÖÆµ½ /usr/share/nginx/html/ Õâ¸öÄ¿Â¼ÏÂÃæ
 
 COPY dist/  /usr/share/nginx/html/
+COPY www-osalien-com-3006.conf /etc/nginx/nginx.conf
